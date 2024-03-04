@@ -1,0 +1,116 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 4em;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  line-height: 1;
+  padding: 0;
+}
+
+.sidebar {
+  height: 100vh;
+  position: fixed;
+  width: 40%;
+  background-color: #f4f4f4;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-links {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  font-size: 1.2em;
+}
+
+.profile-link {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.website-links {
+  padding-top: 20px;
+  font-size: 2em;
+}
+
+#websiteLinks {
+  list-style-type: circle;
+}
+
+#websiteLinks li {
+  margin-bottom: 10px;
+}
+
+.website-link {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+  transition: font-weight 0.5s ease; /* Add transition for font-weight only */
+}
+
+.website-link:hover {
+  opacity: 0.8;
+}
+
+.sidebar img {
+  width: 320px;
+  margin-bottom: 20px;
+  margin-top: 100px;
+  border-radius: 10%;
+}
+
+.main-content-wrapper {
+  margin-left: 40%;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.project-image {
+  width: 400px;
+}
+
+.main-content {
+  padding: 20px;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  display: flex;
+}
+
+@media (max-width: 800px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    box-shadow: none;
+  }
+  .main-content-wrapper {
+    width: 100%;
+    margin-left: 0;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .main-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
