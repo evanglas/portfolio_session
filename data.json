@@ -1,59 +1,71 @@
 {
+  "themeColor": "#3498db",
+  "highlightColor": "#00e0e7",
   "profile": {
     "name": "Space Penguin",
-    "image": "profile2.webp",
-    "resume": "path/to/resume.pdf",
-    "linkedin": "https://www.linkedin.com/in/username"
+    "image": "profile.webp",
+    "resume": "resume.pdf",
+    "linkedin": "https://www.linkedin.com/in/username",
+    "email": "mailto:example@example.com"
   },
-  "aboutMe": "I am a licensed galactic space penguin with 20 years in the interstellar fish trade. I have successfully commandeered 200+ missions across 20+ solar systems, achieving 300+ pesos in revenue. As someone with a passion for interspecies leadership and a passion to provide the best service to my loyal customers, I approach each day with a unique sense of purpose and pride. Following the conclusion of my most recent Marsian trout expedition, I will be seeking new opportunities in the shellfish transport sector.",
+  "aboutMe": "I am a licensed galactic space penguin with 20 years in the interstellar fish trade. I have successfully commandeered 200+ missions across 20+ solar systems, achieving $300 billion in revenue. As someone with a passion for providing the best service to my clients, I approach each day with a unique sense of purpose and pride. Following the conclusion of my most recent Marsian trout expedition, I will be seeking new opportunities in the shellfish transport sector.",
   "education": [
     {
       "degree": "Doctor of Philosophy in Swimming Studies",
       "school": "Antarctic State University",
-      "year": "2016 - 2021"
+      "description": [
+        "Researching the influence of ocean salinity on feather structure and aerodynamics."
+      ]
     },
     {
       "degree": "Bachelors of Science in Economics, Summa Cum Laude",
       "school": "Duke University",
-      "year": "2012 - 2021"
+      "year": "2012 - 2021",
+      "description": ["Valedictorian", "Rhodes Scholar", "Blue Devil Buddy"]
     }
   ],
   "experience": [
     {
       "role": "Galactic Space Penguin",
-      "company": "Freelance",
-      "description": "Operated independently, commanding various missions in the interstellar fish trade.",
-      "year": "2017-present"
+      "organization": "Freelance",
+      "description": [
+        "Operated independently, commanding various missions in the interstellar fish trade."
+      ]
     },
     {
       "role": "Captain",
-      "company": "Cosmic Catch",
-      "description": "Led missions across multiple solar systems, overseeing crew, cargo, and navigation.",
-      "year": "2011-2016"
+      "organization": "Cosmic Catch",
+      "description": [
+        "Led missions across multiple solar systems, overseeing crew, cargo, and navigation."
+      ]
     },
     {
       "role": "First Mate",
-      "company": "Starfish Logistics",
-      "description": "Managed crew and cargo logistics, ensuring smooth operations during interstellar voyages.",
-      "year": "2007-2010"
+      "organization": "Starfish Logistics",
+      "description": [
+        "Managed crew and cargo logistics, ensuring smooth operations during interstellar voyages."
+      ]
     },
     {
       "role": "Junior Space Navigator",
-      "company": "Galactic Fish Enterprises",
-      "description": "Assisted in navigating space routes and coordinating missions for fish transportation.",
-      "year": "2004-2006"
+      "organization": "Galactic Fish Enterprises",
+      "description": [
+        "Assisted in navigating space routes and coordinating missions for fish transportation."
+      ]
     }
   ],
   "projects": [
     {
       "title": "Advanced Space Station",
       "description": "This sleek, advanced space station orbits a distant planet, reflecting the penguin engineer's innovative design. Its architecture is inspired by penguin aesthetics, featuring smooth curves and sections that resemble ice, creating a striking visual impact. This station serves as a crucial hub for interstellar travel and trade, boasting state-of-the-art docking bays and research facilities. It's a testament to the penguin's engineering prowess, blending functionality with an eye for design.",
-      "image": "project1.webp"
+      "image": "project1.webp",
+      "link": "https://www.linkedin.com/company/100087447"
     },
     {
       "title": "Automated Asteroid Mining Rig",
       "description": "This cutting-edge project showcases an automated mining rig designed by the penguin engineer. Equipped with the latest in robotics and laser drilling technology, it's capable of extracting valuable minerals from asteroids with high precision. Operating autonomously, this rig represents the penguin's forward-thinking approach to utilizing space resources efficiently and sustainably.",
-      "image": "project2.webp"
+      "image": "project2.webp",
+      "link": "https://www.instagram.com/dukethetatau/"
     }
   ]
 }
