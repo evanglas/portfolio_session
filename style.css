@@ -21,14 +21,6 @@ html {
   font-size: 4em;
 }
 
-.main-content h2 {
-  font-size: 4em;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  line-height: 1;
-  padding: 0;
-}
-
 .sidebar {
   height: 100vh;
   position: fixed;
@@ -107,12 +99,22 @@ html {
   justify-content: center;
 }
 
+.main-content h2 {
+  font-size: 4em;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+
 .project-image {
   width: 400px;
 }
 
 .main-content {
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
   line-height: 1.5;
   display: flex;
   flex-direction: column;
